@@ -22,11 +22,19 @@ $ envguard
 
 ## Install
 
+**From GitHub Packages:**
+
 ```bash
-npm install -g envguard
+npm install -g @quinnod345/envguard --registry=https://npm.pkg.github.com
 ```
 
-Or use without installing:
+**From release tarball:**
+
+```bash
+npm install -g https://github.com/Quinnod345/envguard/releases/download/v1.0.0/envguard-1.0.0.tgz
+```
+
+**Or use without installing:**
 
 ```bash
 npx envguard

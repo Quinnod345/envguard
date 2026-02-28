@@ -4,7 +4,7 @@
   "description": "Scan your codebase for environment variables, find missing/unused vars, and generate .env.example files automatically.",
   "main": "src/index.js",
   "bin": {
-    "envguard": "./bin/envguard.js"
+    "envguard": "bin/envguard.js"
   },
   "scripts": {
     "test": "node test/run.js",

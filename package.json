@@ -1,0 +1,40 @@
+{
+  "name": "envguard",
+  "version": "1.0.0",
+  "description": "Scan your codebase for environment variables, find missing/unused vars, and generate .env.example files automatically.",
+  "main": "src/index.js",
+  "bin": {
+    "envguard": "./bin/envguard.js"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "dotenv",
+    "lint",
+    "ci",
+    "devtools",
+    "cli",
+    "security",
+    "environment-variables"
+  ],
+  "author": "Oneiro <oneiro-dev@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quinnod345/envguard.git"
+  },
+  "homepage": "https://github.com/Quinnod345/envguard#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ]
+}
